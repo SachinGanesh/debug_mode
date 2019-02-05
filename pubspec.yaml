@@ -1,8 +1,8 @@
 name: debug_mode
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: A simple hack to check if Flutter app is in debug mode
+version: 0.1.0
+author: Sachin Ganesh
+homepage: https://github.com/SachinGanesh/debug_mode
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

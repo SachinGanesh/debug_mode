@@ -1,14 +1,15 @@
 # debug_mode
 
-A new Flutter package project.
+A simple hack to check if Flutter app is in debug mode
 
-## Getting Started
+In debug mode the
+> the Dart assert statement is enabled, and the Flutter framework uses this to perform many runtime checks verifying that invariants are not being violated.
 
-This project is a starting point for a Dart
-[package](https://flutter.io/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+[Source](https://stackoverflow.com/a/49709147)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Example
+```dart
+if(DebugMode.isInDebugMode){
+    // DEBUG Mode
+}
+```
